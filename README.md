@@ -1,2 +1,2 @@
 # HNGInternship4Perez
-Stage1 HTML and CSS
+Repo for Stage2 Task
