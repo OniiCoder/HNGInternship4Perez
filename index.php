@@ -42,7 +42,21 @@
     	<a href="#"><i class="fa fa-facebook-square"></i></a>
     	<a href="#"><i class="fa fa-twitter"></i></a>
     	</div>
-    	<div style="color: #C4C4C4; font-size: 30px; margin-top: 40px;">April 11th, 2018 | 12:30 PM</div>
+    	<div style="color: #C4C4C4; font-size: 30px; margin-top: 40px;">
+		
+		<?php
+			date_default_timezone_set("Africa/Lagos");
+			echo "The time is " . date("h:i:sa");
+		?>
+
+		
+		<?php
+			echo "Today is " . date("Y-m-d");
+			?> | 
+		<?php 
+			date("h:i:sa"); 
+		?>
+	</div>
     	
 
 
